@@ -56,3 +56,116 @@ font-family: 'Poppins';
         transform: translateX(-50%);
     }
 }
+
+
+
+/* about page */
+
+.section-heading h2 {
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    font-size: clamp(25px, 4vw, 40px);
+}
+
+.section-heading h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: #FF9D00;
+    width: 60%;
+}
+
+.section-heading span {
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    color: #7C1152;
+}
+
+
+
+/* formulaireeeeeeeeeeeeeeeeeeeeee */
+
+
+
+form h2 {
+    text-align: center;
+    font-size: clamp(3vw, 1.6rem, 5vw);
+}
+
+form {
+    width: 100%;
+    padding-top: 20px;
+    min-height: 100vh;
+
+}
+
+.container-form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 2px 3px 7px #333,
+        -2px -3px 7px #333;
+    padding: 20px;
+
+    /* height: 95%; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.container-form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input,
+form textarea,
+form label,
+form span {
+    max-width: 450px;
+    width: 100%;
+}
+
+form input {
+    border: 2px solid #333;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+form textarea {
+    resize: none;
+    height: 170px;
+    border: 2px solid #333;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+form input[type='submit'] {
+    cursor: pointer;
+    background: #7C1152;
+    color: #FF9D00;
+    font-weight: bold
+}
+
+form input[type='submit']:hover {
+    background: #333;
+    color: #fff;
+    transition: .3s ease-in;
+}
+
+form span {
+    height: 15px;
+
+}

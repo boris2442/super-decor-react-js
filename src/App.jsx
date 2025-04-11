@@ -5,17 +5,20 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Navigation from './components/Navigation';
+import Contact from './pages/Contact';
+import Services from './pages/Services';
 // autres imports...
 
 function App() {
   return (
     <div className="App">
-      <Navigation/> 
+      <Navigation />
       {/* Ici ton header, navbar ou autre */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-  
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
         {/* autres routes */}
       </Routes>
       <Footer />

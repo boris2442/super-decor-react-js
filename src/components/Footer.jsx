@@ -26,15 +26,15 @@ const Footer = () => {
                     </div>
                     <div className="box-footer  leading-[30px] text-left">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Pages</h3>
-                        <p className=" parent-page relative text-[#f1f1f1] font-bold text-[16px]  "><Link to="/"
+                        <p className=" parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px]  "><Link to="/"
                             rel="noopener noreferrer">Accueil</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[16px] "><Link to="/about"
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about"
                             rel="noopener noreferrer">A propos</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[16px] "><Link
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link
                             to="/services" rel="noopener noreferrer">Services</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[16px] "><Link className="parent-page relative"
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className="parent-page relative"
                             to="/avis" rel="noopener noreferrer">Avis</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[16px] "><Link  to="/contact"
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link  to="/contact"
                             rel="noopener noreferrer">Contact</Link></p>
                     </div>
 
