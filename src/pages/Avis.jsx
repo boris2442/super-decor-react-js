@@ -22,7 +22,7 @@ const Avis = () => {
   ];
 
   return (
-    <div>
+    <section className='pt-[06%]'>
       <div className="section-heading p-[50px] text-center">
         <h2 className="second-title text-3xl font-bold text-[#333] inline-block">Ils nous ont fait confiance !</h2><br />
         <span className="spantexte font-[500] text-[#333]">Ce que nos clients disent de nous</span>
@@ -34,19 +34,19 @@ const Avis = () => {
             <img
               src={avi.imgSrc}
               alt={avi.title}
-              className="h-[200px] w-[200px] object-cover hover:grayscale-100 rounded-full mb-4"
+              className="h-[170px] w-[170px] object-cover hover:grayscale-100 rounded-full mb-4"
             />
             <div className="flex gap-[5px] mb-2">
               {[...Array(5)].map((_, i) => (
                 <i key={i} className="fa-solid fa-star text-yellow-500"></i>
               ))}
             </div>
-            <h4 className="third-title text-[#7C1152] font-bold text-[16px] mb-2">{avi.title}</h4>
+            <h4 className="third-title text-[#7C1152] md:text-[18px] font-bold text-[14px] mb-2">{avi.title}</h4>
             <p dangerouslySetInnerHTML={{ __html: avi.content }}></p>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

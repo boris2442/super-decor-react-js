@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const liens = ({ isActive }) => {
+        return `capitalize text-white text-[16px] relative px-2 hover:text-[#FF9D00]
+    after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-white after:transition-transform after:duration-300
+    ${isActive ? 'after:scale-100' : 'after:scale-0 hover:after:scale-100'}`
+    }
     return (
         <div>
             <footer className="p-[20px] bg-[#7C1152] relative rounded-t-[160px] mt-10">
@@ -27,14 +32,14 @@ const Footer = () => {
                     <div className="box-footer  leading-[30px] text-left">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Pages</h3>
                         <p className=" parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px]  "><Link to="/"
-                            rel="noopener noreferrer">Accueil</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about"
+                            rel="noopener noreferrer" className='hover:text-[#FF9D00]'>Accueil</Link></p>
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about"  className='hover:text-[#FF9D00]'
                             rel="noopener noreferrer">A propos</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className='hover:text-[#FF9D00]'
                             to="/services" rel="noopener noreferrer">Services</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className="parent-page relative"
-                            to="/avis" rel="noopener noreferrer">Avis</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link  to="/contact"
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className='hover:text-[#FF9D00]'
+                            to="/avis" rel="noopener noreferrer" >Avis</Link></p>
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link  to="/contact" className='hover:text-[#FF9D00]'
                             rel="noopener noreferrer">Contact</Link></p>
                     </div>
 
@@ -49,8 +54,8 @@ const Footer = () => {
                     </div>
                     <div className="box-footer  leading-[30px]">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Contact</h3>
-                        <div className="para child4 flex flex-col  leading-[30px] ">
-                            <p className="text-[#f1f1f1] font-bold text-[16px] flex items-center">
+                        <div className="para child4 flex flex-col  leading-[30px]  ">
+                            <p className="text-[#f1f1f1] font-bold text-[16px] flex items-center hover:text-[#FF9D00]">
 
                                 <i
                                     className="fa-solid fa-location-dot text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer">
@@ -58,14 +63,14 @@ const Footer = () => {
                                 Bangou Ville ( Madagascar )
 
                             </p>
-                            <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center ">
+                            <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center hover:text-[#FF9D00]">
 
                                 <i
                                     className="fa-solid fa-phone-volume phone text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
                                 (+237)/675757100 / 652339923
 
                             </div>
-                            <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center justify-center">
+                            <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center justify-center hover:text-[#FF9D00]">
 
 
 
@@ -80,7 +85,7 @@ const Footer = () => {
                                 <i
                                     className="fa-regular fa-envelope text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] cursor-pointer rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00]">
                                 </i>
-                                <a href="mailto:aubinborissimotsebo@gmail.com" target="_blank" >
+                                <a href="mailto:aubinborissimotsebo@gmail.com" target="_blank" className='hover:text-[#FF9D00]' >
                                     superdecor@gmail.com</a>
 
 
