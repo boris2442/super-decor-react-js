@@ -23,7 +23,7 @@ const Avis = () => {
 
   return (
     <section className='pt-[06%]'>
-      <div className="section-heading p-[50px] text-center">
+      <div className="section-heading p-[50px]">
         <h2 className="second-title text-3xl font-bold text-[#333] inline-block">Ils nous ont fait confiance !</h2><br />
         <span className="spantexte font-[500] text-[#333]">Ce que nos clients disent de nous</span>
       </div>

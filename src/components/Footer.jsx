@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
             <footer className="p-[20px] bg-[#7C1152] relative rounded-t-[160px] mt-10">
 
-                <div className="container-footer flex justify-around flex-wrap gap-[20px]">
+                <div className="container-footer flex justify-around flex-wrap ">
                     <div className="box-footer text-center leading-[30px]">
                         <div className="child-bix-icon flex text-[#FF9D00] items-center">
                             <i
@@ -94,7 +94,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="pt-[0px] mx-auto flex justify-center">
-                    <p className="marquee text-[#f1f1f1] text-[16px] text-center font-bold flex items-center gap-[10px] ">Propulsé
+                    <p className="marquee  text-[#f1f1f1] text-[16px] text-center font-bold flex items-center gap-[10px] ">Propulsé
                         avec❤️ par Aubin Boris Simo
                         (simodev). 2025; tous
                         droits reservés!
