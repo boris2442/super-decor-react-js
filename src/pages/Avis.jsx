@@ -1,0 +1,53 @@
+
+
+import React from 'react';
+
+const Avis = () => {
+  const avis = [
+    {
+      imgSrc: "avis/avis1.jpg",
+      title: "Une expérience mémorable",
+      content: "<strong>SUPER DECOR</strong> a transformé notre mariage en un rêve. Le service était impeccable et tout était parfaitement bien organisé."
+    },
+    {
+      imgSrc: "avis/avis1.jpg",
+      title: "Une sonorisation professionnelle",
+      content: "Nous avons fait appel à <strong>SUPER DECOR</strong> pour une inauguration d'entreprise et nous n'avons pas été déçus. Tout a été géré avec soin."
+    },
+    {
+      imgSrc: "avis/avis2.jpg",
+      title: "Un service exceptionnel",
+      content: "Leur équipe est très professionnelle. Les couverts étaient magnifiques et la nourriture délicieuse. Je recommande vivement."
+    }
+  ];
+
+  return (
+    <div>
+      <div className="section-heading p-[50px] text-center">
+        <h2 className="second-title text-3xl font-bold text-[#333] inline-block">Ils nous ont fait confiance !</h2><br />
+        <span className="spantexte font-[500] text-[#333]">Ce que nos clients disent de nous</span>
+      </div>
+
+      <div className="flex justify-center items-center gap-[30px] flex-wrap">
+        {avis.map((avi, index) => (
+          <div key={index} className="max-w-[310px] h-[420px] rounded-[9px] shadow-2xl p-[20px] flex flex-col justify-start items-center text-center">
+            <img
+              src={avi.imgSrc}
+              alt={avi.title}
+              className="h-[200px] w-[200px] object-cover hover:grayscale-100 rounded-full mb-4"
+            />
+            <div className="flex gap-[5px] mb-2">
+              {[...Array(5)].map((_, i) => (
+                <i key={i} className="fa-solid fa-star text-yellow-500"></i>
+              ))}
+            </div>
+            <h4 className="third-title text-[#7C1152] font-bold text-[16px] mb-2">{avi.title}</h4>
+            <p dangerouslySetInnerHTML={{ __html: avi.content }}></p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Avis;

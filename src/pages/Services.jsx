@@ -88,7 +88,7 @@ const Services = () => {
           Chaque événement est unique, et nous offrons des services sur mesure.
         </span>
       </div>
-      <div className="container flex justify-center gap-[40px] pt-[40px] flex-wrap">
+      <div className="container flex justify-around gap-[40px] pt-[40px] flex-wrap">
         {services.map((service, index) => (
           <div key={index} className="  box w-[300px] h-[350px] rounded-[9px] shadow-2xl hover:scale-105">
             <img
