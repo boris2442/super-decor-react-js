@@ -10,6 +10,10 @@ import Navigation from './components/Navigation';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Avis from './pages/Avis';
+import Legale from './pages/Legale';
+import Confidentialite from './pages/Confidentialite';
+import CGVSection from './pages/CGVSection';
+import Remboursement from './pages/Remboursement';
 // autres imports...
 
 function App() {
@@ -23,6 +27,10 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
         <Route path='/avis' element={<Avis/>}/>
+        <Route path='/legale' element={<Legale/>}/>
+        <Route path='/confidentialite' element={<Confidentialite/>}/>
+        <Route path='/cgv' element={<CGVSection/>}/>
+        < Route path='remboursement-condition' element={<Remboursement/>}/>
         {/* autres routes */}
       </Routes>
       <Footer />

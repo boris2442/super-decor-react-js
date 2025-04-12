@@ -33,13 +33,13 @@ const Footer = () => {
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Pages</h3>
                         <p className=" parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px]  "><Link to="/"
                             rel="noopener noreferrer" className='hover:text-[#FF9D00]'>Accueil</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about"  className='hover:text-[#FF9D00]'
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about" className='hover:text-[#FF9D00]'
                             rel="noopener noreferrer">A propos</Link></p>
                         <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className='hover:text-[#FF9D00]'
                             to="/services" rel="noopener noreferrer">Services</Link></p>
                         <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link className='hover:text-[#FF9D00]'
                             to="/avis" rel="noopener noreferrer" >Avis</Link></p>
-                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link  to="/contact" className='hover:text-[#FF9D00]'
+                        <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/contact" className='hover:text-[#FF9D00]'
                             rel="noopener noreferrer">Contact</Link></p>
                     </div>
 
@@ -47,10 +47,10 @@ const Footer = () => {
                     <div className="box-footer  leading-[30px]">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">autres</h3>
                         <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to="/legale"
-                            rel="noopener noreferrer" className="parent-page relative">Mentions légales</Link></p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "></p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] ">Condition de ventes</p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] ">Conditions de remboursement</p>
+                            rel="noopener noreferrer" className="parent-page relative hover:text-[#FF9D00]">Mentions légales</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to='confidentialite' className='hover:text-[#FF9D00]'>Politique de confidentialité</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link className='hover:text-[#FF9D00]' to="/cgv">Conditions generales de ventes</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to='/remboursement-condition' className='hover:text-[#FF9D00]'>Conditions de remboursement</Link></p>
                     </div>
                     <div className="box-footer  leading-[30px]">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Contact</h3>

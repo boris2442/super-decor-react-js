@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div>
-            <section id="about" className="w-[100%] px-[50px] bg-[#f1f1f1] min-h-[90vh] py-[100px] pt-[7%]">
+            <section id="about" className="w-[100%] px-[10px] md:px-[30px] bg-[#f1f1f1] min-h-[90vh]  pt-[25%] md:pt-[7%]">
                 <div className="section-heading">
                     <h2 className="second-title text-3xl font-bold text-[#333] inline-block relative">À propos de nous!</h2><br/>
                         <span className="text-[#FF9D00] spantexte">Une version simplifiée de nous!</span>
