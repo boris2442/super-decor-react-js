@@ -29,7 +29,7 @@ const Footer = () => {
                                 className="fa-brands fa-tiktok text-3xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
                         </div>
                     </div>
-                    <div className="box-footer  leading-[30px] text-left">
+                    <div className="box-footer none  leading-[30px] text-left ">
                         <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Pages</h3>
                         <p className=" parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px]  "><Link to="/"
                             rel="noopener noreferrer" className='hover:text-[#FF9D00]'>Accueil</Link></p>
