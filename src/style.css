@@ -1,4 +1,14 @@
 @import "tailwindcss";
+
+@font-face{
+    font-family: 'Poppins';
+    src:url('../public/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Italiano';
+    src: url('../public/fonts/Italianno/Italianno-Regular.ttf') format('truetype');
+}
+
 *, ::after, ::before{
 font-family: 'Poppins';
 }

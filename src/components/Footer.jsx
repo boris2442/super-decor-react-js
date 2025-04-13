@@ -16,9 +16,10 @@ const Footer = () => {
                         <div className="child-bix-icon flex text-[#FF9D00] items-center">
                             <i
                                 className="fas fa-shopping-cart text-2xl  m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer "></i>
-                            <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">SUPER DECOR</h3>
+                            <h3 className="third-title text-[1.4rem] text-[#FF9D00] font-bold capitalize"><Link to='/'>SUPER DECOR</Link>
+                                </h3>
                         </div>
-                        <div className="icons flex">
+                        <div className="icons hidden md:flex">
                             <i
                                 className="fa-brands fa-facebook-f text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
                             <i
@@ -29,8 +30,8 @@ const Footer = () => {
                                 className="fa-brands fa-tiktok text-3xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
                         </div>
                     </div>
-                    <div className="box-footer none  leading-[30px] text-left ">
-                        <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Pages</h3>
+                    <div className="box-footer none  leading-[20px] text-left hidden md:block ">
+                        <h3 className="third-title text-[20px] md:text-2xl text-[#FF9D00] font-bold capitalize">Pages</h3>
                         <p className=" parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px]  "><Link to="/"
                             rel="noopener noreferrer" className='hover:text-[#FF9D00]'>Accueil</Link></p>
                         <p className="parent-page relative text-[#f1f1f1] font-bold text-[14px] md:text-[16px] "><Link to="/about" className='hover:text-[#FF9D00]'
@@ -44,21 +45,21 @@ const Footer = () => {
                     </div>
 
 
-                    <div className="box-footer  leading-[30px]">
-                        <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">autres</h3>
+                    <div className="box-footer  leading-[25px] text-[14px] md:text-[16px]">
+                        <h3 className="third-title text-[20px] md:text-2xl text-[#FF9D00] font-bold capitalize">autres</h3>
                         <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to="/legale"
                             rel="noopener noreferrer" className="parent-page relative hover:text-[#FF9D00]">Mentions légales</Link></p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to='confidentialite' className='hover:text-[#FF9D00]'>Politique de confidentialité</Link></p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link className='hover:text-[#FF9D00]' to="/cgv">Conditions generales de ventes</Link></p>
-                        <p className="para  text-[#f1f1f1] font-bold text-[16px] "><Link to='/remboursement-condition' className='hover:text-[#FF9D00]'>Conditions de remboursement</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold  "><Link to='confidentialite' className='hover:text-[#FF9D00]'>Politique de confidentialité</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold  "><Link className='hover:text-[#FF9D00]' to="/cgv">Conditions generales de ventes</Link></p>
+                        <p className="para  text-[#f1f1f1] font-bold  "><Link to='/remboursement-condition' className='hover:text-[#FF9D00]'>Conditions de remboursement</Link></p>
                     </div>
-                    <div className="box-footer  leading-[30px]">
-                        <h3 className="third-title text-[1.7rem] text-[#FF9D00] font-bold capitalize">Contact</h3>
-                        <div className="para child4 flex flex-col  leading-[30px]  ">
+                    <div className="box-footer  leading-[15px]">
+                        <h3 className="third-title text-[20px] md:text-2xl text-[#FF9D00] font-bold capitalize">Contact</h3>
+                        <div className="para child4 flex flex-col  leading-[10px] text-[14px] md:text-[16px]  ">
                             <p className="text-[#f1f1f1] font-bold text-[16px] flex items-center hover:text-[#FF9D00]">
 
                                 <i
-                                    className="fa-solid fa-location-dot text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer">
+                                    className="fa-solid fa-location-dot text-[17px] flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] rounded-full h-[30px] w-[30px] md:h-[40px] md:w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer">
                                 </i>
                                 Bangou Ville ( Madagascar )
 
@@ -66,7 +67,7 @@ const Footer = () => {
                             <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center hover:text-[#FF9D00]">
 
                                 <i
-                                    className="fa-solid fa-phone-volume phone text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
+                                    className="fa-solid fa-phone-volume phone text-[17px] flex justify-center items-center m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[30px] w-[30px] md:h-[40px] md:w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer"></i>
                                 (+237)/675757100 / 652339923
 
                             </div>
@@ -75,7 +76,7 @@ const Footer = () => {
 
 
                                 <i
-                                    className="fa-solid fa-phone-volume phone text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer "></i>
+                                    className="fa-solid fa-phone-volume phone text-[17px] flex justify-center items-center m-[6px] text-[#FF9D00] p-[5px] rounded-full h-[30px] w-[30px] md:h-[40px] md:w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00] cursor-pointer "></i>
                                 (+237)/697987812 / 680736603
 
 
@@ -83,7 +84,7 @@ const Footer = () => {
                             <div className="para text-[#f1f1f1] font-bold text-[16px] flex items-center ">
 
                                 <i
-                                    className="fa-regular fa-envelope text-2xl flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] cursor-pointer rounded-full h-[40px] w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00]">
+                                    className="fa-regular fa-envelope text-[17px] flex justify-center items-center m-[6px] text-[#FF9D00] p-[10px] cursor-pointer rounded-full h-[30px] w-[30px] md:h-[40px] md:w-[40px] border-2 border-solid border-[#333] hover:text-[#f1f1f1] hover:bg-[#FF9D00]">
                                 </i>
                                 <a href="mailto:aubinborissimotsebo@gmail.com" target="_blank" className='hover:text-[#FF9D00]' >
                                     superdecor@gmail.com</a>
@@ -94,7 +95,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="pt-[0px] mx-auto flex justify-center">
-                    <p className="marquee  text-[#f1f1f1] text-[16px] text-center font-bold flex items-center gap-[10px] ">Propulsé
+                    <p className="marquee  text-[#f1f1f1] text-[12px] text-center  flex items-center gap-[10px] md:text-[1.2rem] font-Italiano">Propulsé
                         avec❤️ par Aubin Boris Simo
                         (simodev). 2025; tous
                         droits reservés!
