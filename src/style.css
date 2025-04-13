@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+/* @@@@@@@@@@@@@@@@@@@@@@font ----------face */
 @font-face{
     font-family: 'Poppins';
     src:url('../public/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
@@ -59,11 +59,11 @@ font-family: 'Poppins';
 
 @keyframes scrollText {
     from {
-        transform: translateX(50%);
+        transform: translateX(100%);
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 

@@ -13,24 +13,24 @@ const Contact = () => {
 
                 <form>
 
-                    <div class="container-form">
-                        <div class="box-form">
-                            <label for="name" class="scrollform text-[13px] md:text-[16px]">Entrer votre nom</label>
+                    <div className="container-form">
+                        <div className="box-form">
+                            <label htmlFor="name" class="scrollform text-[13px] md:text-[16px]">Entrer votre nom</label>
                             <input type="text" placeholder="SIMO" id="name" name="name" required className="scrollform" />
                             <span className="scrollform spanName"></span>
                         </div>
-                        <div class="box-form">
-                            <label for="email" class="scrollform text-[13px] md:text-[16px]">Entrer votre email</label>
+                        <div className="box-form">
+                            <label htmlFor="email" className="scrollform text-[13px] md:text-[16px]">Entrer votre email</label>
                             <input type="text" placeholder="aubinsimo@gmail.com" id="email" name="email" required className="scrollform" />
                             <span className="scrollform spanEmail"></span>
                         </div>
-                        <div class="box-form">
-                            <label for="textarea" className="scrollform text-[13px] md:text-[16px]">Laisser un message</label>
+                        <div className="box-form">
+                            <label htmlFor="textarea" className="scrollform text-[13px] md:text-[16px]">Laisser un message</label>
                             <textarea name="message" id="textarea" placeholder="laisser un message" required className="scrollform"></textarea>
                             <span className="spanTextarea scrollform"></span>
                         </div>
                         <div >
-                            <input type="submit" value="Envoyer" class="scrollform" />
+                            <input type="submit" value="Envoyer" className="scrollform" />
                         </div>
                     </div>
                 </form>

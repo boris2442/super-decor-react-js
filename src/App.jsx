@@ -14,6 +14,7 @@ import Legale from './pages/Legale';
 import Confidentialite from './pages/Confidentialite';
 import CGVSection from './pages/CGVSection';
 import Remboursement from './pages/Remboursement';
+import SeePlusHotel from './pages/SeePlusHotel';
 // autres imports...
 
 function App() {
@@ -31,6 +32,20 @@ function App() {
         <Route path='/confidentialite' element={<Confidentialite/>}/>
         <Route path='/cgv' element={<CGVSection/>}/>
         < Route path='remboursement-condition' element={<Remboursement/>}/>
+        <Route path='Services/SeePlusHotel' element={<SeePlusHotel/>}/>
+        {/* <Route path='/SeePlusCouverts' element={<Services/>}/>
+        <Route path='/SeePlusChaises' element={<Services/>}/>
+        <Route path='/SeePlusDecoration' element={<Services/>}/>
+        <Route path='/SeePlusBaches' element={<Services/>}/>
+        <Route path='/SeePlusCuisson' element={<Services/>}/>
+        <Route path='/SeePlusSalleMortuaire' element={<Services/>}/>
+        <Route path='/SeePlusGenerateur' element={<Services/>}/>
+        <Route path='/SeePlusServicesTraiteur' element={<Services/>}/>
+        <Route path='/SeePlusMarmites' element={<Services/>}/>
+        <Route path='/SeePlusSonnorisation' element={<Services/>}/>
+        <Route path='/SeePlusLivraisonEau' element={<Services/>}/> */}
+    
+
         {/* autres routes */}
       </Routes>
       <Footer />
