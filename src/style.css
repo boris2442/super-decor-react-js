@@ -53,19 +53,20 @@ font-family: 'Poppins';
 
     white-space: nowrap;
     overflow: hidden;
-    display:block;
+    display:inline-block;
     animation: scrollText 10s linear infinite;
 }
 
 @keyframes scrollText {
     from {
-        transform: translateX(100%);
+        transform: translateX(50%);
     }
-
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
+   
+
 
 
 
