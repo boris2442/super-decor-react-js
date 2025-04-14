@@ -15,7 +15,7 @@ const Contact = () => {
 
                     <div className="container-form">
                         <div className="box-form">
-                            <label htmlFor="name" class="scrollform text-[13px] md:text-[16px]">Entrer votre nom</label>
+                            <label htmlFor="name" className="scrollform text-[13px] md:text-[16px]">Entrer votre nom</label>
                             <input type="text" placeholder="SIMO" id="name" name="name" required className="scrollform" />
                             <span className="scrollform spanName"></span>
                         </div>
